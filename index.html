@@ -61,6 +61,39 @@
 			 
 <a href="http://data.typeracer.com/pit/profile?user=stevenzc&ref=badge" target="_top"><img src="http://data.typeracer.com/misc/badge?user=stevenzc" border="0" alt="TypeRacer.com scorecard for user stevenzc"/></a>
 
+<p id="demo">Click on the button below to get the current date and time!</p>
+<button type="button" onclick="myFunction()">Time please!</button>
+<br>
+<button type="button" onclick="popup()">Download a Trojan!</button>
+<br>
+<button type="button" onclick="color()">Change the date color!</button>
+<br>
+<button type="button" onclick="sizes()">Change the text size!</button>
+
+<script>
+
+var size = 12;
+
+function myFunction()
+{
+document.getElementById("demo").innerHTML = Date();
+}
+function popup()
+{
+	alert("That might not be a good idea!");
+}
+function color()
+{
+	document.getElementById("demo").style.color = "#ff0000";
+}
+function sizes()
+{
+	size = size + 1;
+	document.getElementById("demo").style.fontSize = "" + size.toString() + "px";
+}
+
+</script>
+
 
   <div class="current-section">
     <a href="#top">Scroll to top</a>
