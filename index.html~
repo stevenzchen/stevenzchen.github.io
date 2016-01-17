@@ -7,6 +7,7 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
     </script>
     <![endif]-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700|Roboto|Inconsolata' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
     <script src="scripts/jquery.js"></script>
     <script src="scripts/script.js"></script>
@@ -20,13 +21,11 @@
     <!-- nav should go here -->
     <main>
         <article>
-            <p>Hello World! This site is a work in progress.</p>
+            <p>Hello! I'm Steven Chen, a Computer Science major at UT Austin.</p>
         </article>
+        <!-- various links should go here -->
     </main>
-    <footer>
-
-
-
+    <!-- footer should go here -->
 </body>
 
 </html>
