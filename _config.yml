@@ -8,6 +8,9 @@ description: >
 baseurl: "" 
 url: "http://stevenzc.com" 
 github_username:  stevenzchen
+linkedin_username: stevenzchen
+facebook_username: stevenzchen
+steam_username: stevenzc
 
 # Build settings
 markdown: kramdown
