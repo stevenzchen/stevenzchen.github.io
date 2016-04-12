@@ -2,6 +2,7 @@
 layout: post
 title:  "Nil Considered Harmful: How Optionals Work in Swift"
 date:   2016-04-11
+categories: code cs ios swift
 ---
 
 One of my favorite features of Swift, Apple's new programming language
