@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: stevenzc's Blog
 permalink: /blog
 ---
 
@@ -9,10 +9,11 @@ permalink: /blog
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        
+        <a class="post-link" href="{{ post.url | prepend: site.baserurl }}">{{ post.title }}</a>
+        
+        {{ post.content | strip_html | truncatewords: 50 }}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
       </li>
     {% endfor %}
   </ul>

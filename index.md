@@ -10,9 +10,30 @@ Last summer, I interned at [RetailMeNot][rmn] in Austin, and this summer, I'm ex
 
 You can find my [resumé here][resume].
 
-In my free time, I like traveling, playing board games, auto racing, video gaming, music and sci-fi. Here are a couple of [my favorite][favorites] board games and PC games.
+In my free time, I like traveling, playing board games, auto racing, video gaming, music and sci-fi. Here are a couple of [my favorite][favorites] board games and PC games. I'm also a [Google Local Guide][local], and like to post reviews
+and photos of places I go on Google Maps.
 
 I post about things I find interesting at [my blog][blog], feel free to check it out!
+
+<br />
+<br />
+<br />
+<br />
+
+<h2 class="recent-title">Recent Posts</h2>
+
+<ul class="post-list">
+    {% for post in site.posts limit:3 %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        
+        <a class="post-link" href="{{ post.url | prepend: site.baserurl }}">{{ post.title }}</a>
+        
+        {{ post.content | strip_html | truncatewords: 50 }}
+
+      </li>
+    {% endfor %}
+</ul>
 
 [turing]: https://www.cs.utexas.edu/turing-scholars
 [deans]: https://cns.utexas.edu/honors/honors-programs-center/deans-scholars
@@ -24,4 +45,5 @@ I post about things I find interesting at [my blog][blog], feel free to check it
 [photos]: https://www.google.com/photos/about/?page=auto-backup
 [resume]: /assets/steven_chen_resume.pdf
 [favorites]: http://amzn.com/w/3M7DGS728ZX5Q
+[local]: https://www.google.com/local/guides/
 [blog]: /blog

@@ -1,0 +1,220 @@
+---
+layout: post
+title: "Austin's Prop 1: What Was At Stake?"
+date:   2016-05-10
+---
+
+![Prop 1 Signs](/assets/prop1.jpg)
+
+A couple days ago, Austinites voted to reject Proposition 1 with 56% against
+, a move that has led to Uber and Lyft stopping operations in our city. I've been
+reading many articles about Prop 1 and how this contentious issue has 
+developed, but none of them give much information about what's actually in Prop 1
+and the ordinance that led to it. I'd like to provide some detail on the laws that were at stake, and offer my thoughts on what has happened.
+
+## The City Ordinance: December 2015
+
+The battle started in earnest when the Austin City Council passed an
+[Ordinance Amending City Code Chapter 13-2][ordinancepdf], adding new laws and 
+regulations on Transportation Network Companies (TNCs) such as Uber and Lyft.
+It's a pretty readable document if you'd like to read it for yourself.
+Here are some **main points** from the ordinance that I think are worth
+going over:
+
+#### **Fare Disclosure**
+
+* Before a trip is accepted, **riders must be able to view the estimated cost
+of the trip**. 
+
+* After a trip is complete, riders must receive a receipt with
+origin, destination, and total cost.
+
+#### **Surge Pricing**
+
+* If a TNC has surge pricing, the app must **provide clear indication that
+surge pricing is in effect, and provide a fare estimator to allow riders
+to estimate the cost with surge pricing**.
+
+* During periods of **abnormal market disruptions**, surge pricing is
+prohibited. Abnormal market disruptions include **dangerous weather events,
+power outages, strikes, military action, and national or local emergenies**.
+
+#### **Travel Lanes**
+
+* A TNC driver cannot stop, park, load, or unload riders in a travel lane
+or at an official bus stop.
+
+#### **Vehicle Requirements**
+
+* A TNC vehicle must display an emblem indicating which TNC is being used
+at all times of service.
+
+#### **Driver Requirements**
+
+* TNC drivers must pass a driver history check and **fingerprint-based
+criminal background check** to be eligible to drive for a TNC.
+
+* A TNC driver cannot drive-for-hire for more than 12 hours in any 24 hour
+period.
+
+#### **Fees**
+
+* TNCs can choose three different ways to pay fees to the City of Austin:
+  1. Based on permit fee for taxis times the number of people driving for the TNC,
+  2. One percent of the TNC's annual local gross revenue, or
+  3. Based on total miles driven.
+
+This ordinance was passed in December 2015 by the city. Some parts of the 
+ordinance were already implemented partially by Uber or Lyft, such as fare 
+estimates, receipts, and surge pricing indicators. However, many other
+components, such as surge pricing prohibitions during abnormal market disruptions,
+prohibition from using travel lanes to load and unload, displaying an emblem, and
+fingerprint-based background checks were not implemented by Uber or Lyft and met
+their harsh response.
+
+## Uber and Lyft Respond: February 2016
+
+Uber and Lyft responded to this by creating a petition to repeal the ordinance
+and replace it with one written by them,
+which received the needed signatures and led to [Proposition 1][prop1pdf], a
+proposition for the following:
+
+> Shall the City Code be amended to repeal City Ordinance No. 20151217-075 
+> relating to Transportation Network Companies; and replace with an ordinance
+> that would repeal and prohibit required fingerprinting, repeal the requirement
+> to identify the vehicle with a distinctive emblem, repeal the prohibition
+> against loading and unloading passengers in a travel lane, and require other
+> regulations for Transportation Netowrk Companies?
+
+The full [pdf is here][prop1pdf]. The proposition provides a version of Article
+4 of Code Chapter 13-2, with the following changes being most notable:
+
+* Fingerprint-based background checks are repealed and are replaced with TNCs'
+current **name-based background checks**, done by the TNCs themselves.
+
+* Vehicles **do not have to have a distinctive emblem displayed** while in service.
+
+* TNCs are **allowed to load and unload passengers in travel lanes**.
+
+Other components of the original city ordinance, such as fare disclosure,
+surge pricing restrictions, and fees of 1% of revenue were **kept in**. A vote
+was to be cast on **May 7th, 2016** to decide whether to vote:
+
+* **For Prop 1** and repeal the original city ordinance, replacing it with
+Uber and Lyft's version. This would repeal fingerprint-based background checks,
+emblems on vehicles, and the prohibition of loading in travel lanes, allowing
+Uber and Lyft to conduct their own name-based background checks and use 
+travel lanes for loading. Other components of the ordinance will be maintained.
+
+* **Against Prop 1** and keep the original city ordinance, requiring 
+fingerprint-based background checks, emblems on vehicles, and prohibiting loading
+and unloading in travel lanes, as well as keep the other components of the ordinance.
+
+## Prop 1 Campaigns: April 2016
+
+Thus began the most expensive political campaign in Austin history. 
+Uber and Lyft created a [political action committee][pac], 
+[Ridesharing Works for Austin][rwa], in support of Proposition 1. The PAC
+received more than 8 million dollars solely from Uber and Lyft, and did not
+receive or accept any personal donations, but did encourage campaign 
+volunteering. The PAC's money was used for all forms of media advertising in
+the Austin area, including TV ads, internet ads, mailers, and local calling.
+
+On the other side, two political action committees were formed
+against Prop 1: [Our City, Our Safety, Our Choice][ocosoc] and [Austin Unites][au],
+which raised about $100,000 in total donations, largely from individual donations,
+labor unions, and first responders. 
+
+The spending by RWA was the largest in Austin history: in fact, our current mayor
+Steve Adler's campaign cost _only_ 1.2 million dollars in comparison. 
+
+Most notably, **Uber and Lyft threatened to leave Austin if the proposition did not 
+pass**, and end operations in Austin for an indefinite time. 
+
+## The Vote and the Shutdown: May 2016
+
+On May 7th, 2016, Austinites voted against Prop 1, with 56% against. 17% of registered
+voters took part in this special municipal election. After results were
+announced, Uber and Lyft shut down operations in Austin the next Monday. 
+
+![Uber Austin No Pickup][uber]{:width="300px"}
+
+So far, Uber is continuing operations in Austin suburbs. Both companies announced their
+disappointment and hope for changes in ridesharing laws. Now, the Uber app just
+displays a "Contact City Council" button, encouraging riders and drivers to speak 
+out against the city ordinance and regulations on ridesharing companies.
+
+&nbsp;
+&nbsp;
+
+# My Thoughts
+
+_I hope you've enjoyed this article and have a deeper understanding of Prop 1 and recent events. I wanted to write this to help you understand
+what's actually at stake, so that you can make your own decisions as to 
+how to proceed. If you'd like to hear my personal thoughts on the matter, read on.
+Please keep in mind what I think is precisely that: I'm not necessarily right, and 
+I don't want to force my ideas on anybody. Otherwise, thanks for reading, I hope
+you got something out of it!_
+
+The election results show that this issue has been contentious. As a UT student and
+native Austin resident, I have seen the active campaigning, both on our campus and 
+on TV, and heard both sides loud and clear. As with any important political issue,
+it's very difficult to argue that one side is completely justified while the other
+is totally wrong. Both sides have their own motives and intentions: my opinion is
+that **while Uber and Lyft provide needed transportation and jobs to a very traffic-congested
+city, their threats to pull out of Austin were the primary motivation for voters 
+to vote for their proposition, and their execution of this threat is being used as
+an example to show other local governments what happens when you try to get in the way of ride-sharing companies**. Honestly, I think that with or without Prop 1, the new
+ordinance laws on ridesharing companies are already much better than before: I just 
+don't agree with the way Uber and Lyft used threats to try to get their legislation passed.
+
+Ridesharing is easy and affordable, giving people without cars access to
+quick and convenient transportation. I've used Uber and Lyft many times to get around
+Austin, Seattle, and the Bay Area, and have only had good experiences (well, when
+there isn't surge pricing...) Many people rely on it to get to work, go home at night,
+or as a part-time or full-time job. **I don't think anybody wants ridesharing to leave
+Austin**. However, no component of the council ordinance requires Uber or Lyft to leave:
+they are simply using Austin as leverage.
+
+Even with the fingerprint background checks, and restricted loading lanes, Uber and Lyft
+can still operate in Austin with a very healthy profit, and almost all drivers would 
+agree to a fingerprint-based background check and to display an emblem if it means they
+can keep their jobs. Like any business, Uber and Lyft want to grow and maximize their
+businesses in the long run, and get into as many markets as possible, adjusting 
+local regulations to benefit their businesses. **They do have every right to fight for
+their own interests, and the interests of their owners and shareholders**. The companies must have determined that
+executing their threat and leaving Austin was most beneficial to them, because it would
+**set Austin as an example for others, and possibly scare other local governments and 
+voters into doing what Uber and Lyft want, in order to keep them in town**.
+
+Prop 1 gained support **not because people were against the city ordinance and
+the laws inside it, but because they didn't want Uber and Lyft to leave**. On UT's
+campus, student volunteers chanted "Vote to keep Uber and Lyft in Austin!", not 
+"Vote against fingerprint-based background checks and displaying emblems on cars!"
+Why? It's because it's very difficult to argue against the laws in the city ordinance,
+other than because it hurts profit margins, and exchanges a bit
+of convenience (picking up anywhere on the side of the road) for some increased safety.
+While it's certainly not illegal for Uber and Lyft to threaten leaving a city
+on the results of a democratic vote, in my opinion **it's unethical and uses corporate
+leverage to entice people to vote for something they may not wholeheartedly believe 
+in**. Think about it this way: if Uber and Lyft were to stay in Austin despite the
+results of the Prop 1 election, I'm certain more people would have voted against it,
+because without their threat of leaving, it's much more difficult to justify repealing
+laws that try to make ridesharing safer.
+
+I'm very interested in seeing what happens next for ridesharing, in Austin and in other
+cities. I hope that local governments and businesses can work together to help their
+residents have convenient, affordable, and safe transportation: however, this is a 
+difficult task, and in many cases government and business are at odds. I hope to see
+Uber and Lyft come back to Austin, but I do hope that no other city has to experience
+what we have gone through, and vote on a fair local referendum with a giant threat 
+looming over their shoulders.
+
+
+[ordinancepdf]: /assets/ordinance.pdf
+[prop1pdf]: /assets/prop1.pdf
+[pac]: https://en.wikipedia.org/wiki/Political_action_committee
+[rwa]: https://www.voteprop1.com
+[ocosoc]: https://www.ourcityoursafetyourchoice.org
+[au]: http://www.austinunites.com
+[uber]: /assets/ubernopickup.png
