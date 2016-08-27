@@ -2,20 +2,19 @@
 layout: default
 ---
 
-Hello, I'm Steven Chen! I'm currently an undergraduate at the [University of Texas at Austin](https://www.cs.utexas.edu) majoring in Computer Science. At UT Austin, I am a [Turing Scholar][turing] and [Dean's Scholar][deans], as well as an undergraduate researcher in computer vision and machine learning. 
+Hello, I'm Steven Chen! I'm an undergraduate student at the [University of Texas at Austin](https://www.cs.utexas.edu) majoring in Computer Science. At UT Austin, I am a [Turing Scholar][turing] and [Dean's Scholar][deans], as well as a research assistant working on computer vision and machine learning. 
 
-I'm interested in backend development, app development, [AI][ai], and [IoT][iot], among many other things. Recently, I have been involved in iOS development, as well as competitive programming.
+I'm interested in machine learning, backend development, computer vision, AI, and [IoT][iot], among many other things. Recently, I have been involved in iOS development, as well as competitive programming.
 
-Last summer, I interned at [RetailMeNot][rmn] in Austin, and this summer, I'm excited to be a software engineering intern at [Google][google] in [Mountain View][mtnview], on the [Photos][photos] team!
+Last summer, I interned at Google in Mountain View, where I worked on [Google Photos][photos] MapReduce backend. Before that, I interned at [RetailMeNot][rmn] in Austin on backend services.
 
 You can find my [resumé here][resume].
 
-In my free time, I like traveling, playing board games, auto racing, video gaming, music and sci-fi. Here are a couple of [my favorite][favorites] board games and PC games. I'm also a [Google Local Guide][local], and like to post reviews
+In my free time, I like traveling, playing music, auto racing, video games, music and sci-fi. Here are a couple of [my favorite][favorites] board games and PC games. I'm also a [Google Local Guide][local], and I enjoy posting reviews
 and photos of places I go on Google Maps.
 
-I post about things I find interesting at [my blog][blog], feel free to check it out!
+I post about things I find cool or interesting at [my blog][blog], feel free to take a look below!
 
-<br />
 <br />
 <br />
 <br />
@@ -37,7 +36,6 @@ I post about things I find interesting at [my blog][blog], feel free to check it
 
 [turing]: https://www.cs.utexas.edu/turing-scholars
 [deans]: https://cns.utexas.edu/honors/honors-programs-center/deans-scholars
-[ai]: https://en.wikipedia.org/wiki/Artificial_intelligence
 [iot]: https://en.wikipedia.org/wiki/Internet_of_Things
 [rmn]: http://www.retailmenot.com
 [google]: http://www.google.com
