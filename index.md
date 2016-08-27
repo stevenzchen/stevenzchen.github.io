@@ -2,6 +2,8 @@
 layout: default
 ---
 
+![San Francisco Pier](/assets/homepagepic.jpg){:width="600px"}
+
 Hello, I'm Steven Chen! I'm an undergraduate student at the [University of Texas at Austin](https://www.cs.utexas.edu) majoring in Computer Science. At UT Austin, I am a [Turing Scholar][turing] and [Dean's Scholar][deans], as well as a research assistant working on computer vision and machine learning. 
 
 I'm interested in machine learning, backend development, computer vision, AI, and [IoT][iot], among many other things. Recently, I have been involved in iOS development, as well as competitive programming.
