@@ -8,9 +8,9 @@ Hello, I'm Steven Chen! I'm an undergraduate at the [University of Texas at Aust
 
 I'm interested in machine learning, computer vision, data science, and software engineering, among many other things. I'm currently conducting research with Professor Kristen Grauman on computer vision and machine learning, with an undergraduate thesis in the works.
 
-I will be graduating from UT Austin with a Bachelors in Computer Science in May 2017, and continuing with a Masters in Computer Science.
+I will be graduating from UT Austin with a Bachelors in Computer Science in May 2017, and continuing at [Stanford University](https://cs.stanford.edu) with a Masters in Computer Science.
 
-In summer 2016, I interned at Google in Mountain View, where I worked on [Google Photos][photos] MapReduce backend. Before that, I interned at [RetailMeNot][rmn] in Austin on backend services. This summer, I'm excited to be interning at [Riot Games][riot] in LA as a data science intern.
+In summer 2016, I interned at Google in Mountain View, where I worked on [Google Photos][photos] backend. Before that, I interned at [RetailMeNot][rmn] in Austin on backend algorithms. This summer, I'm excited to be interning at [Riot Games][riot] in LA as a data science intern.
 
 You can find my **[resumé here][resume]**.
 
