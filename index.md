@@ -2,22 +2,17 @@
 layout: default
 ---
 
-![San Francisco Pier](/assets/homepagepic.jpg){:width="600px"}
+![San Francisco Pier](/assets/austin_steven_chen.jpg){:width="500px"}
 
-Hello, I'm Steven Chen! I'm an undergraduate at the [University of Texas at Austin](https://www.cs.utexas.edu) majoring in Computer Science. At UT Austin, I am a part of the [Turing Scholars][turing] and [Dean's Scholars][deans] honors programs.
+Hello, I'm Steven Chen. I'm currently a graduate student at Stanford studying for a Masters in Computer Science, with a specialization in artificial intelligence. I received my Bachelors in CS from the University of Texas at Austin, under the [Turing Scholars][turing] honors program.
 
-I'm interested in machine learning, computer vision, data science, and software engineering, among many other things. I'm currently conducting research with Professor Kristen Grauman on computer vision and machine learning, with an undergraduate thesis in the works.
-
-I will be graduating from UT Austin with a Bachelors in Computer Science in May 2017, and continuing at [Stanford University](https://cs.stanford.edu) with a Masters in Computer Science.
-
-In summer 2016, I interned at Google in Mountain View, where I worked on [Google Photos][photos] backend. Before that, I interned at [RetailMeNot][rmn] in Austin on backend algorithms. This summer, I'm excited to be interning at [Riot Games][riot] in LA as a data science intern.
+I have had internship experience in both data science and software engineering. My most recent internship was at Riot Games in 2017 as a data scientist, where I worked on distributed machine learning recommendation algorithms for League of Legends. In 2016, I interned at Google, where I worked on [Google Photos][photos] backend MapReduce frameworks. Before that, I worked at [RetailMeNot][rmn] on backend algorithms.
 
 You can find my **[resumé here][resume]**.
 
-In my free time, I love traveling, playing music, gaming, [experiencing architecture][arch], and Star Trek. Here are a couple of [my favorite][favorites] board games and PC games. I'm also a [Google Local Guide][local].
+In my free time, I love traveling, playing guitar and saxophone, gaming, [experiencing architecture][arch], and Star Trek. Here are a couple of [my favorite][favorites] board games and PC games. I'm also a [Google Local Guide][local].
 
-I post about things I hope are interesting or helpful on [my blog][blog], feel free to take a look below!
-
+I post about things I hope are interesting or useful on [my blog][blog], take a look below!
 
 <br />
 
