@@ -2,15 +2,15 @@
 layout: default
 ---
 
-![San Francisco Pier](/assets/austin_steven_chen.jpg){:width="500px"}
+![San Francisco Pier](/assets/stanford_steven_chen.jpg){:width="500px"}
 
-Hello, I'm Steven Chen. I'm currently a graduate student at Stanford studying for a Masters in Computer Science, with a specialization in artificial intelligence. I received my Bachelors in CS from the University of Texas at Austin, under the [Turing Scholars][turing] honors program.
+Hello, I'm Steven Chen. I'm currently a grad student at Stanford studying Computer Science, with a focus in artificial intelligence and computer vision. I completed my undergrad at the University of Texas at Austin, under the [Turing Scholars][turing] CS honors program.
 
-I have had internship experience in both data science and software engineering. My most recent internship was at Riot Games in 2017 as a data scientist, where I worked on distributed machine learning recommendation algorithms for League of Legends. In 2016, I interned at Google, where I worked on [Google Photos][photos] backend MapReduce frameworks. Before that, I worked at [RetailMeNot][rmn] on backend algorithms.
+I've been fortunate to work multiple internships in software engineering and data science. My most recent internship was at Riot Games in 2017 as a data scientist, where I worked on machine learning recommenders for League of Legends. In 2016, I interned at Google, where I worked on [Google Photos][photos] MapReduce frameworks. Before that, I worked at [RetailMeNot][rmn] on backend algorithms.
 
-You can find my **[resumé here][resume]**.
+You can find my updated **[resumé here][resume]**.
 
-In my free time, I love traveling, playing guitar and saxophone, gaming, [experiencing architecture][arch], and Star Trek. Here are a couple of [my favorite][favorites] board games and PC games. I'm also a [Google Local Guide][local].
+In my free time, I like to travel, play guitar and saxophone, game, [marvel at architecture][arch], and watch Star Trek. Here are a couple of [my favorite][favorites] board games and PC games. I'm also a [Google Local Guide][local].
 
 I post about things I hope are interesting or useful on [my blog][blog], take a look below!
 
