@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![Stanford](/assets/stanford_steven_chen.JPG){:width="500px"}
+![Stanford](/assets/dc_steven_chen.JPG){:width="350px"}
 
 Hello, I'm Steven Chen. I'm currently a grad student at Stanford studying Computer Science, with a focus in artificial intelligence and computer vision. I completed my undergrad at the University of Texas at Austin, under the [Turing Scholars][turing] CS honors program.
 
