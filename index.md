@@ -4,13 +4,15 @@ layout: default
 
 ![Stanford](/assets/dc_steven_chen.jpg){:width="350px"}
 
-Hello, I'm Steven Chen. I'm currently a grad student at Stanford studying Computer Science, with a focus in artificial intelligence and computer vision. I completed my undergrad at the University of Texas at Austin, under the [Turing Scholars][turing] CS honors program.
+Hello, I'm Steven Chen! I'm a grad student at Stanford studying computer science, with a focus in AI and computer vision. I completed my undergrad at UT Austin, under the [Turing Scholars][turing] CS honors program.
 
-I've been fortunate to work multiple internships in software engineering and data science. My most recent internship was at Riot Games in 2017 as a data scientist, where I worked on machine learning recommenders for League of Legends. In 2016, I interned at Google, where I worked on [Google Photos][photos] MapReduce frameworks. Before that, I worked at [RetailMeNot][rmn] on backend algorithms.
+I've been fortunate to work multiple internships in software engineering and data science. Last year, I was a data science intern at Riot Games, where I worked on machine learning recommendation algorithms for League of Legends. In 2016, I interned at Google, where I worked on [Google Photos][photos] MapReduce frameworks. Before that, I worked at [RetailMeNot][rmn] on backend ranking algorithms.
 
-You can find my updated **[resumé here][resume]**.
+I'm currently a TA for [CS102 Big Data][cs102], and have TA'd [CS161 Algorithms][cs161] the past two quarters. This summer, I will be interning at NVIDIA, working on deep learning for autonomous vehicles.
 
-In my free time, I like to travel, play guitar and saxophone, game, [marvel at architecture][arch], and watch Star Trek. Here are a couple of [my favorite][favorites] board games and PC games. I'm also a [Google Local Guide][local].
+You can find my up-to-date **[resumé here][resume]**. If you know me personally, connect with me on **[LinkedIn][linkedin]**!
+
+In my free time, I like to travel, play guitar and saxophone, read, game, [appreciate architecture][arch], and watch Star Trek. Here are a couple of [my favorite][favorites] board games and video games, and here's my gigantic personal [Spotify playlist][spotify]. I'm also a [Google Local Guide][local], with over 1 million photo views on Google Maps!
 
 I post about things I hope are interesting or useful on [my blog][blog], take a look below!
 
@@ -44,3 +46,7 @@ I post about things I hope are interesting or useful on [my blog][blog], take a 
 [blog]: /blog
 [riot]: http://www.riotgames.com
 [arch]: https://mitpress.mit.edu/books/experiencing-architecture
+[linkedin]: https://www.linkedin.com/in/stevenzchen
+[cs161]: http://cs161.stanford.edu
+[cs102]: http://cs102.stanford.edu
+[spotify]: https://open.spotify.com/user/stevenzc/playlist/6QPJvtr4AG96c1XUskYHs3?si=2OGtXcHISeSCYOZgKBkpWg
