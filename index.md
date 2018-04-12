@@ -4,17 +4,21 @@ layout: default
 
 ![Stanford](/assets/dc_steven_chen.jpg){:width="350px"}
 
-Hello, I'm Steven Chen! I'm a grad student at Stanford studying computer science, with a focus in AI and computer vision. I completed my undergrad at UT Austin, under the [Turing Scholars][turing] CS honors program.
+Hello, I'm Steven Chen! I'm a Masters student at Stanford studying computer science, with a focus on computer vision and AI. I completed my undergrad at UT Austin, under the [Turing Scholars][turing] CS honors program.
 
-I've been fortunate to work multiple internships in software engineering and data science. Last year, I was a data science intern at Riot Games, where I worked on machine learning recommendation algorithms for League of Legends. In 2016, I interned at Google, where I worked on [Google Photos][photos] MapReduce frameworks. Before that, I worked at [RetailMeNot][rmn] on backend ranking algorithms.
+I am passionate about applying computer vision and AI solutions to help improve people's lives at a large scale. I'm particularly interested in autonomous vehicles and their potential to save lives, reduce traffic congestion, and cut emissions. 
 
-I'm currently a TA for [CS102 Big Data][cs102], and have TA'd [CS161 Algorithms][cs161] the past two quarters. This summer, I will be interning at NVIDIA, working on deep learning for autonomous vehicles.
+I was fortunate to have [Professor Kristen Grauman][grauman] as my research advisor at UT. Our work on visual attributes was recently published in CVPR 2018 ([paper here][paper]).
+
+I've had the opportunity to learn from several internships in engineering and data science. Recently, I worked at [Riot Games][riot] on machine learning recommendation algorithms for League of Legends. I previously worked at Google on [Google Photos][photos] MapReduce APIs, and at [RetailMeNot][rmn] on ranking algorithms. This summer, I'm looking forward to interning at [NVIDIA][nvidia], where I will be working on deep learning for autonomous vehicles. 
+
+I'm currently a teaching assistant for [CS102 Big Data][cs102] at Stanford, and TA'd [CS161 Algorithms][cs161] previously.
 
 You can find my up-to-date **[resumé here][resume]**. If you know me personally, connect with me on **[LinkedIn][linkedin]**!
 
-In my free time, I like to travel, play guitar and saxophone, read, game, [appreciate architecture][arch], and watch Star Trek. Here are a couple of [my favorite][favorites] board games and video games, and here's my gigantic personal [Spotify playlist][spotify]. I'm also a [Google Local Guide][local], with over 1 million photo views on Google Maps!
+In my free time, I like to travel, play guitar, read, play strategy games, and watch Star Trek. I enjoy [appreciating architecture][arch], and I like to drive and keep up with advances in the auto industry. Here are a couple of [my favorite games][favorites]. I'm also a [Google Local Guide][local], with over 1 million photo views on Google Maps!
 
-I post about things I hope are interesting or useful on [my blog][blog], take a look below!
+I post ideas I hope are interesting or useful on [my blog][blog], take a look below.
 
 <br />
 
@@ -45,8 +49,11 @@ I post about things I hope are interesting or useful on [my blog][blog], take a 
 [local]: https://www.google.com/local/guides/
 [blog]: /blog
 [riot]: http://www.riotgames.com
-[arch]: https://mitpress.mit.edu/books/experiencing-architecture
+[arch]: https://mitpress.mit.edu/books/experiencing-architecture-second-edition
 [linkedin]: https://www.linkedin.com/in/stevenzchen
 [cs161]: http://cs161.stanford.edu
 [cs102]: http://cs102.stanford.edu
 [spotify]: https://open.spotify.com/user/stevenzc/playlist/6QPJvtr4AG96c1XUskYHs3?si=2OGtXcHISeSCYOZgKBkpWg
+[grauman]: http://www.cs.utexas.edu/users/grauman/
+[paper]: https://arxiv.org/abs/1804.00112
+[nvidia]: https://www.nvidia.com/en-us/self-driving-cars/
