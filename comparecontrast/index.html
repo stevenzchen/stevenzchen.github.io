@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Page Title -->
+  <title>Compare and Contrast: Learning Prominent Visual Differences</title>
+
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+  <link href="styles/comparecontrast.css" rel="stylesheet" type="text/css" />
+  <link href="styles/comparecontrast_mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" />
+  <link href="styles/lightbox.css" rel="stylesheet" type="text/css" />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="styles/lightbox.min.js"></script>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50110471-3', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+
+  </script>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50110471-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-50110471-4');
+  </script>
+
+  
+  <script>
+    $(document).ready(function(){
+      $(".fakelink").click(function(){
+        $(".bibref").slideToggle(600);
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  
+  <div class="header">
+    <h1>Compare and Contrast:<br> Learning Prominent Visual Differences</h1>
+    <h2>Steven Chen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kristen Grauman</h2>
+    <h3><i>University of Texas at Austin</i></h3>
+    <h4><span class="dl-list"><a onclick="ga('send', 'event', 'link', 'download', 'paper-main');" href="docs/prominent_differences_cvpr2018.pdf" target="_blank">[paper]</a>&nbsp;<a onclick="ga('send', 'event', 'link', 'download', 'paper-supp');" href="docs/prominent_differences_supp.pdf" target="_blank">[supp]</a>&nbsp;<a onclick="ga('send', 'event', 'link', 'download', 'paper-poster');" href="docs/prominent_differences_poster.pdf" target="_blank">[poster]</a></span></h4>
+  </div>
+  
+  
+  <section class="abstract">
+    
+    <header><i>Abstract</i></header>
+
+    <p><i>Relative attribute models can compare images in terms of all detected properties or attributes, exhaustively predicting which image is fancier, more natural, and so on without any regard to ordering. However, when humans compare images, certain differences will naturally stick out and come to mind first. These most noticeable differences, or prominent differences, are likely to be described first. In addition, many differences, although present, may not be mentioned at all. In this work, we introduce and model prominent differences, a rich new functionality for comparing images. We collect instance-level annotations of most noticeable differences, and build a model trained on relative attribute features that predicts prominent differences for unseen pairs. We test our model on the challenging UT-Zap50K shoes and LFW10 faces datasets, and outperform an array of baseline methods. We then demonstrate how our prominence model improves two vision tasks, image search and description generation, enabling more natural communication between people and vision systems.</i></p>
+    
+  </section>
+  
+  
+  <section>
+    
+    <header>Overview</header>
+    <hr class="midhr">
+    
+    <p><b>Main Task:</b> TODO</p>
+    
+    <img class="width75" src="images/motivation.jpg" alt="Introduction" />
+    
+    <p>TODO</p>
+    
+  </section>
+  
+  
+  <section>
+    
+    <header>Learning Prominent Differences</header>
+    <hr class="midhr">
+    
+    <p>TODO</p>
+    
+    <img class="width75" src="images/pipeline.jpg" alt="Learning Prominent Differences" />
+    
+    <p>TODO</p>
+    
+    <h2>TODO</h2>
+    
+    <p>TODO</p>
+    
+  </section>
+    
+  <section>
+    <header>Predicting Prominent Differences</header>
+    <hr class="midhr">
+    
+    <ul>  
+      <li><b>UT-Zap50K <sup class="cite">[Yu &amp; Grauman 14]</sup>:</b> 50,025 shoe images | 4 attributes | 4,778 supervision pairs | length-960 GIST+RGB features</li>
+      <li><b>LFW-10 <sup class="cite">[Sandeep et al. 14]</sup>:</b> 2,000 face images | 10 attributes | 5,543 supervision pairs | length-8300 part features</li>
+    </ul>
+    
+    <img class="width96" src="images/results.jpg" alt="Quantitative" />
+    
+    <p><b>Qualitative:</b> Here, we observe the subtleties of JND.  Whereas past methods would be artificially forced to make a comparison for the left panel of image pairs, our method declares them indistinguishable.  Pairs may look very different overall (e.g., different hair, race, headgear) yet still be indistinguishable <i>in the context of a specific attribute</i>.  Meanwhile, those that are distinguishable (right panel) may have only subtle differences.</p>
+    
+    <img class="width96" src="images/imresults.jpg" alt="Qualitative" />
+    
+    <p><b>Quantitative:</b> JND detection accuracy for all attributes based on F1-scores. We show the precision-recall and ROC curves (AUC values in the legend). We outperform all baselines by a sizeable margin, roughly 4-18&#37; on UT-Zap50K and 10-15&#37; on LFW-10. This clearly demonstrates the advantages of our local learning approach, which accounts for the non-uniformity of attribute space.</p>
+    
+  </section>
+  
+  <section>
+    <header>Application: Description Generation</header>
+    <hr class="midhr">
+    
+    <img class="width75" src="images/whittle.png" alt="WhittleSearch" />
+    
+    <p><b>Image Search:</b> We incorporate our model into the existing WhittleSearch image search framework <sup class="cite">[Kovashka et al. 12]</sup>. WhittleSearch is an interactive method that allows a user to provide relative attribute feedback. We argument this pipeline such that the user can express not only "more/less" preferences, but also "equal" preferences. For example, the user can now say, "I want cars that are <i>similarly streamlined</i> as car X." We show experimentally that enriching the feedback in this manner helps the user more quickly zero in on the relevant images that match his envisioned target.</p>
+    
+  </section>
+
+  <section>
+    
+    <header>Application: Image Search</header>
+    <hr class="midhr">
+
+    <img class="width75" src="images/whittle.png" alt="WhittleSearch" />
+    
+    <p><b>Image Search:</b> We incorporate our model into the existing WhittleSearch image search framework <sup class="cite">[Kovashka et al. 12]</sup>. WhittleSearch is an interactive method that allows a user to provide relative attribute feedback. We argument this pipeline such that the user can express not only "more/less" preferences, but also "equal" preferences. For example, the user can now say, "I want cars that are <i>similarly streamlined</i> as car X." We show experimentally that enriching the feedback in this manner helps the user more quickly zero in on the relevant images that match his envisioned target.</p>
+    
+  </section>
+  
+  
+  <section>
+    
+    <header>Publication</header>
+    <hr class="midhr">
+    
+    <p><span class="citation">S. Chen and K. Grauman. "Compare and Contrast: Learning Prominent Visual Differences". In CVPR, 2018.</span>&nbsp;<a class="fakelink">[bibtex]</a></p>
+    
+    <p class="bibref">@InProceedings{prominentdifferences,<br>&nbsp;&nbsp;author = {S. Chen and K. Grauman},<br>&nbsp;&nbsp;title = {Compare and Contrast: Learning Prominent Visual Differences},<br>&nbsp;&nbsp;booktitle = {CVPR},<br>&nbsp;&nbsp;month = {June},<br>&nbsp;&nbsp;year = {2018}<br>}</p>
+    
+  </section>
+  
+  <hr class="mainhr">
+  <footer>Copyright &copy; 2018 University of Texas at Austin || Please contact <a onclick="ga('send', 'event', 'link', 'redirect', 'personal-home');" href="//stevenzc.com" target="_blank">Steven Chen</a> for comments and questions.</footer>
+  
+</body>
+
+</html>
