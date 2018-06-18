@@ -31,9 +31,9 @@
   
   <div class="header">
     <h1>Compare and Contrast:<br> Learning Prominent Visual Differences</h1>
-    <h2>Steven Chen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kristen Grauman</h2>
+    <h2>Steven Chen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kristen Grauman</h2>
     <h3><i>University of Texas at Austin</i></h3>
-    <h4><span class="dl-list"><a onclick="ga('send', 'event', 'link', 'download', 'paper-main');" href="docs/prominent_differences_cvpr2018.pdf" target="_blank">[paper]</a>&nbsp;<a onclick="ga('send', 'event', 'link', 'download', 'paper-supp');" href="docs/prominent_differences_supp.pdf" target="_blank">[supp]</a>&nbsp;<a onclick="ga('send', 'event', 'link', 'download', 'paper-poster');" href="docs/prominent_differences_poster.pdf" target="_blank">[poster]</a>&nbsp;<a onclick="ga('send', 'event', 'link', 'download', 'paper-supp');" href="http://arxiv.org/abs/1804.00112" target="_blank">[arxiv]</a></span></h4>
+    <h4><span class="dl-list"><a onclick="ga('send', 'event', 'link', 'download', 'paper-main');" href="http://www.cs.utexas.edu/~grauman/papers/prominent_attributes_cvpr2018.pdf" target="_blank">[paper]</a>&nbsp;<a onclick="ga('send', 'event', 'link', 'download', 'paper-supp');" href="http://www.cs.utexas.edu/~grauman/papers/prominent-attributes-supp.pdf" target="_blank">[supp]</a>&nbsp;<a onclick="ga('send', 'event', 'link', 'download', 'paper-poster');" href="docs/prominent_differences_poster.pdf" target="_blank">[poster]</a>&nbsp;<a onclick="ga('send', 'event', 'link', 'download', 'paper-supp');" href="http://arxiv.org/abs/1804.00112" target="_blank">[arxiv]</a></span></h4>
   </div>
   
   
@@ -53,12 +53,11 @@
 
       <img class="width50" src="images/motivation.jpg" alt="Introduction" />
 
-    <p>When people compare images, certain visual differences stick out, and are described first. These <i>prominent differences</i> are most noticeable, and are likely to be described first, while other differences, although present and true, are likely stated later or not at all. Prominent differences affect our perception of images (ex. what stands out when comparing shopping items?), and strongly influence human input to vision systems (ex. labeling, feedback to an interactive system).</p>
+    <p>When people compare images, certain visual differences stick out, and are described first. These <i>prominent differences</i> are most noticeable, and are likely to be described first, while other differences, although present and true, are likely stated later or not at all. Prominent differences affect our perception of images (ex. what stands out when comparing shopping items?), and influence human input to vision systems (ex. labeling, feedback to an interactive system).</p>
 
     <p>In this work, we introduce and model prominent differences, a rich new functionality for comparing images. We collect annotations of most noticeable differences, and build a model trained on relative attributes that predicts prominent differences for unseen pairs. We evaluate on two challenging datasets and outperform an array of baseline methods. Finally, we demonstrate how prominent differences can be used to enhance two vision tasks, image search and description generation.</p>
     
   </section>
-  
   
   <section>
     
@@ -67,7 +66,7 @@
 
       <h2>Relative Attributes</h2>
 
-      <p>Relative attributes <sup class="cite">[Parikh and Grauman 2011]</sup> express an image's attribute strength with respect to other images. TODO</p>
+      <p>Relative attributes <sup class="cite">[Parikh and Grauman 2011]</sup> express an image's attribute strength with respect to other images, and enable visual comparisons between images. Relative attribute rankers are models that can rank images based on their attribute strength scores, and use sets of labeled images pairs for learning.</p>
 
       <img class="width60" src="images/relattr.jpg" alt="Relative Attributes" />
 
@@ -75,7 +74,7 @@
 
       <h2>Modeling</h2>
 
-    <p>Given an image pair, we obtain the relative attribute scores for each image, and combine these scores into a symmetric, pairwise representation for the pair. We train a multiclass classifier on this representation using labeled prominence pairs. Given a new image pair, we use this trained model to predict prominent difference(s).</p>
+    <p>Given an image pair, we obtain the relative attribute scores for each image using a relative attribute ranker, and combine these scores into a symmetric, pairwise representation for the pair. We train a multiclass classifier on this feature representation using labeled prominent difference pairs. Given a new image pair, we use this trained model to predict prominent difference(s). See the paper for more detail.</p>
 
     <img class="width60" src="images/pipeline.jpg" alt="Learning Prominent Differences" />
 
@@ -88,14 +87,14 @@
     <header>Predicting Prominent Differences</header>
     <hr class="midhr">
 
-      <p>We evaluate on two different image datasets:</p>
+      <p>We evaluate on two different image datasets, collecting prominent difference annotations for both:</p>
 
     <ul>  
       <li><b>UT-Zap50K <sup class="cite">[Yu and Grauman 2014]</sup>:</b> 50,025 shoe images, 10 relative attributes (sporty, formal, etc.), 5,000 prominence annotation pairs</li>
       <li><b>LFW-10 <sup class="cite">[Sandeep et al. 2014]</sup>:</b> 2,000 face images, 10 relative attributes (smiling, bald head, etc.), 5,000 prominence annotation pairs</li>
     </ul>
 
-      <p>TODO what we compare to. How we do.</p>
+      <p>We benchmark prominence prediction accuracy compared to prior work <sup class="cite">[Turakhia and Parikh 2013 <b>**</b>]</sup> and several baseline approaches. We outperform prior work and all baselines, on both of our datasets and for both attribute rankers used.</p>
     
     <img class="width60" src="images/results.jpg" alt="Quantitative Results" />
     
@@ -131,12 +130,21 @@
     <header>Application: Image Search</header>
     <hr class="midhr">
 
-      <p>We incorporate prominent differences into WhittleSearch <sup class="cite">[Kovashka et al. 12]</sup>, an interactive image search framework where users provide relative attribute feedback through comparisons (e.g., I would like images that are <i>more formal</i> than X). WhittleSearch ranks images by the number of feedback constraints satisfied. A problem with this apporach is that many images satisfy all feedback, and appear equally relevant to the system. When users provide relative feedback to the system, they are likely to provide prominent differences. Thus, in our approach, we order images by their prominence strength with user feedback. Our approach produces significantly more relevant results, yet requires no additional user feedback.
+      <p>We incorporate prominent differences into WhittleSearch <sup class="cite">[Kovashka et al. 12 <b>~</b>]</sup>, an interactive image search framework where users provide relative attribute feedback through comparisons (e.g., I would like images that are <i>more formal</i> than X). WhittleSearch ranks images by the number of feedback constraints satisfied. A problem with this apporach is that many images satisfy all feedback, and appear equally relevant to the system. When users provide relative feedback to the system, they are likely to provide prominent differences. Thus, in our approach, we order images by their prominence strength with user feedback. Our approach produces significantly more relevant results, yet requires no additional user feedback.
 
     <img class="width75" src="images/searchresults.jpg" alt="WhittleSearch Results" />
 
       <p><b>Image Search Results: </b> Quantitative results on left, displaying target image rank at each iteration (lower rank is better). On right, qualitative search results with user target images, followed by WhittleSearch top results and our results. Our approach produces more relevant search results using the same amount of user feedback.</p>
 
+  </section>
+
+  <section>
+    
+    <header>Dataset</header>
+    <hr class="midhr">
+    
+    <p>Dataset will be available to download soon.</p>
+    
   </section>
   
   
