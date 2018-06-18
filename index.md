@@ -6,23 +6,23 @@ layout: default
 
 Hello, I'm Steven Chen! I'm a Masters student at Stanford studying computer science, with a focus on computer vision and AI. I completed my undergrad at UT Austin, under the [Turing Scholars][turing] CS honors program.
 
-I am passionate about applying computer vision and AI solutions to help improve people's lives at a large scale. I'm particularly interested in autonomous vehicles and their potential to save lives, reduce traffic congestion, and cut emissions. 
+I am passionate about applying AI solutions to help improve people's lives at large scale. I'm particularly interested in autonomous vehicles and their potential to save lives, reduce traffic congestion, and cut emissions. 
 
-I was fortunate to have [Professor Kristen Grauman][grauman] as my research advisor at UT. Our work on visual attributes was recently published in CVPR 2018 ([paper here][paper]).
+I was fortunate to have [Professor Kristen Grauman][grauman] as my research advisor at UT. Our work on visual attributes was recently published in CVPR 2018 ([project page here][paper]).
 
-I've had the opportunity to learn from several internships in engineering and data science. Recently, I worked at [Riot Games][riot] on machine learning recommendation algorithms for League of Legends. I previously worked at Google on [Google Photos][photos] MapReduce APIs, and at [RetailMeNot][rmn] on ranking algorithms. This summer, I'm looking forward to interning at [NVIDIA][nvidia], where I will be working on deep learning for autonomous vehicles. 
+I've had the opportunity to learn from several past internships. Recently, I worked at [Riot Games][riot] on ML recommendation algorithms for League of Legends. I have also worked at Google on [Google Photos][photos] MapReduce, and at [RetailMeNot][rmn] on ranking algorithms. This summer, I'm looking forward to interning at [NVIDIA][nvidia], where I will be working on deep learning for autonomous vehicles. 
 
-I'm currently a teaching assistant for [CS102 Big Data][cs102] at Stanford, and TA'd [CS161 Algorithms][cs161] previously.
+I was a teaching assistant for [CS102 Big Data][cs102], taught by Dean Jennifer Widom, as well as [CS161 Algorithms][cs161].
 
-You can find my up-to-date **[resumé here][resume]**. If you know me personally, connect with me on **[LinkedIn][linkedin]**!
+You can find my **[resumé here][resume]**. If you know me personally, connect with me on **[LinkedIn][linkedin]**.
 
-In my free time, I like to travel, play guitar, read, play strategy games, and watch Star Trek. I enjoy [appreciating architecture][arch], and I like to drive and keep up with advances in the auto industry. Here are a couple of [my favorite games][favorites]. I'm also a [Google Local Guide][local], with over 1 million photo views on Google Maps!
+In my free time, I like to read, dance, travel, and play strategy games. I enjoy [touring architecture][arch], and I like to drive and keep up the auto industry. Here are a couple of [my favorite games][favorites]. I'm also a [Google Local Guide][local], with over 1.5 million photo views on Google Maps!
 
-I post ideas I hope are interesting or useful on [my blog][blog], take a look below.
+<!--
 
 <br />
 
-<h2 class="recent-title">Recent Posts</h2>
+<h2 class="recent-title">Latest Blog Posts</h2>
 
 <ul class="post-list">
     {% for post in site.posts limit:3 %}
@@ -36,6 +36,8 @@ I post ideas I hope are interesting or useful on [my blog][blog], take a look be
       </li>
     {% endfor %}
 </ul>
+
+-->
 
 [turing]: https://www.cs.utexas.edu/turing-scholars
 [deans]: https://cns.utexas.edu/honors/honors-programs-center/deans-scholars
@@ -55,5 +57,5 @@ I post ideas I hope are interesting or useful on [my blog][blog], take a look be
 [cs102]: http://cs102.stanford.edu
 [spotify]: https://open.spotify.com/user/stevenzc/playlist/6QPJvtr4AG96c1XUskYHs3?si=2OGtXcHISeSCYOZgKBkpWg
 [grauman]: http://www.cs.utexas.edu/users/grauman/
-[paper]: https://arxiv.org/abs/1804.00112
+[paper]: /comparecontrast
 [nvidia]: https://www.nvidia.com/en-us/self-driving-cars/
