@@ -4,19 +4,19 @@ layout: default
 
 ![Stanford](/assets/dc_steven_chen.jpg){:width="350px"}
 
-Hello, I'm Steven Chen! I'm a Masters student at Stanford studying computer science, with a focus on computer vision and AI. I completed my undergrad at UT Austin, under the [Turing Scholars][turing] CS honors program.
+Hello, I'm Steven Chen. I am a Computer Science graduate student at Stanford, focusing on computer vision and artificial intelligence. I completed my undergrad in CS at UT Austin, under the [Turing Scholars][turing] honors program.
 
-I am passionate about applying AI solutions to help improve people's lives at large scale. I'm particularly interested in autonomous vehicles and their potential to save lives, reduce traffic congestion, and cut emissions. 
+I am passionate about applying AI solutions to help improve people's lives at large scale. I'm particularly interested in autonomous vehicles and their potential to save lives, reduce traffic, and cut emissions.
 
-I was fortunate to have [Professor Kristen Grauman][grauman] as my research advisor at UT. Our work on visual attributes was recently published in CVPR 2018 ([project page here][paper]).
+I was very fortunate to have [Kristen Grauman][grauman] as my research advisor at UT. Our work on attributes was published in CVPR 2018 ([project page here][paper]). I am currently working with [Kayvon Fatahalian][kayvon] on performant deep neural networks for vision.
 
-I've had the opportunity to learn from several past internships. Recently, I worked at [Riot Games][riot] on ML recommendation algorithms for League of Legends. I have also worked at Google on [Google Photos][photos] MapReduce, and at [RetailMeNot][rmn] on ranking algorithms. This summer, I'm looking forward to interning at [NVIDIA][nvidia], where I will be working on deep learning for autonomous vehicles. 
+I have had the great opportunity to learn from several past internships. This summer, I worked at [NVIDIA][nvidia] on autonomous vehicles, building fast deep neural networks for perception and optimizing multithreaded system software. Previously, I worked at [Riot Games][riot] on ML recommendations for League of Legends, at Google on [Google Photos][photos] MapReduce, and at [RetailMeNot][rmn] on ranking algorithms.
 
-I was a teaching assistant for [CS102 Big Data][cs102], taught by Dean Jennifer Widom, as well as [CS161 Algorithms][cs161].
+I am currently a teaching assistant for [CS230 Deep Learning][cs230], taught by [Kian Katanforoosh][kian] and [Andrew Ng][andrew]. I was a teaching assistant for [CS102 Big Data][cs102] taught by [Dean Jennifer Widom][widom], as well as [CS161 Algorithms][cs161] taught by [Mary Wootters][wootters] and [Leonidas Guibas][guibas].
 
 You can find my **[resumé here][resume]**. If you know me personally, connect with me on **[LinkedIn][linkedin]**.
 
-In my free time, I like to read, dance, travel, and play strategy games. I enjoy [touring architecture][arch], and I like to drive and keep up the auto industry. Here are a couple of [my favorite games][favorites]. I'm also a [Google Local Guide][local], with over 1.5 million photo views on Google Maps!
+In my free time, I like to read, dance, travel, and play strategy games. I enjoy [touring architecture][arch], and I like to drive and keep up the auto industry. Here are a couple of [my favorite games][favorites]. I'm also a [Google Local Guide][local], with over 2 million photo views on Google Maps!
 
 <!--
 
@@ -39,6 +39,13 @@ In my free time, I like to read, dance, travel, and play strategy games. I enjoy
 
 -->
 
+[cs230]: http://cs230.stanford.edu
+[andrew]: http://www.andrewng.org/
+[kian]: https://www.linkedin.com/in/kiankatan/
+[widom]: https://cs.stanford.edu/people/widom/
+[wootters]: https://sites.google.com/site/marywootters/
+[guibas]: https://geometry.stanford.edu/member/guibas/
+[kayvon]: http://graphics.stanford.edu/~kayvonf/
 [turing]: https://www.cs.utexas.edu/turing-scholars
 [deans]: https://cns.utexas.edu/honors/honors-programs-center/deans-scholars
 [iot]: https://en.wikipedia.org/wiki/Internet_of_Things
