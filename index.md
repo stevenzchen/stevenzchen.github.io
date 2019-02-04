@@ -14,7 +14,7 @@ I am currently a teaching assistant for [CS102 Big Data][cs102] taught by [Dean 
 
 You can find my **[resumé here][resume]**. If you know me personally, connect with me on **[LinkedIn][linkedin]**.
 
-In my free time, I like to read, dance, travel, and play strategy games. I enjoy [touring architecture][arch], and I like to drive and keep up the auto industry. I'm also an [Google Local Guide][local] reviewer, with over 75,000 review and 2.2 million photo views on Google Maps.
+In my free time, I like to read, dance, travel, and play strategy games. I enjoy [touring architecture][arch], and I like to drive and keep up with the auto industry. I'm also an [Google Local Guide][local] reviewer, with over 75,000 review and 2.3 million photo views on Google Maps.
 
 <!--
 
