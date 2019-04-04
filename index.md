@@ -4,17 +4,17 @@ layout: default
 
 ![Stanford](/assets/dc_steven_chen.jpg){:width="350px"}
 
-Hello, I'm Steven Chen. I am a Computer Science graduate student at Stanford, focusing on computer vision and artificial intelligence. I completed my undergrad at UT Austin, under the [Turing Scholars][turing] CS honors program. I will be graduating in mid-2019, and am looking forward to joining [Aurora Innovation][aurora] as a software engineer in the Machine Learning R&D team.
+Hello, I'm Steven! I am a Stanford Computer Science graduate student, focusing on computer vision and performant systems. I completed my undergrad at UT Austin, under the [Turing Scholars][turing] CS honors program. I will be graduating in 2019, and am looking forward to joining [Aurora Innovation][aurora] as a software engineer working on Machine Learning R&D.
 
-I was fortunate to have [Kristen Grauman][grauman] as my research advisor at UT. Our work on attributes was published in CVPR 2018 ([project page here][paper]). I am currently working with [Kayvon Fatahalian][kayvon] on performant deep neural networks for vision. Our recent work on efficient video inference is [here][jitnet].
+I was fortunate to have [Kristen Grauman][grauman] as my research advisor at UT. Our work on visual attributes was published in CVPR 2018 ([project page here][paper]). I am currently advised by [Kayvon Fatahalian][kayvon]: our recent work on efficient video inference can be found [here][jitnet].
 
-I have been fortunate to learn from many internships. This summer, I worked at [NVIDIA][nvidia] on autonomous vehicle neural networks and system software. Previously, I worked at [Riot Games][riot] on machine learning recommendations for League of Legends, at Google on [Google Photos][photos] MapReduce APIs, and at [RetailMeNot][rmn] on ranking algorithms.
+I have been fortunate to learn from many internships. Last summer, I worked at [NVIDIA][nvidia] on autonomous vehicle neural networks and systems. Previously, I worked at [Riot Games][riot] on machine learning recommendations for League of Legends, at Google on [Google Photos][photos] MapReduce, and at [RetailMeNot][rmn] on ranking algorithms.
 
-I am currently a teaching assistant for [CS102 Big Data][cs102] taught by [Dean Jennifer Widom][widom]. I was a teaching assistant for [CS230 Deep Learning][cs230], taught by [Kian Katanforoosh][kian] and [Andrew Ng][andrew], as well as [CS161 Algorithms][cs161] taught by [Mary Wootters][wootters] and [Leonidas Guibas][guibas].
+I am currently a teaching assistant for [CS230 Deep Learning][cs230], taught by [Kian Katanforoosh][kian] and [Andrew Ng][andrew]. I was a teaching assistant for [CS102 Big Data][cs102] taught by [Dean Jennifer Widom][widom], as well as [CS161 Algorithms][cs161] taught by [Mary Wootters][wootters] and [Leonidas Guibas][guibas].
 
-You can find my **[resumé here][resume]**. If you know me personally, connect with me on **[LinkedIn][linkedin]**.
+My **[resumé is here][resume]**. If you know me personally, feel free to connect with me on **[LinkedIn][linkedin]**.
 
-In my free time, I like to read, dance, travel, and play strategy games. I enjoy [touring architecture][arch], and I like to drive and keep up with the auto industry. I'm also an [Google Local Guide][local] reviewer, with over 75,000 review and 2.3 million photo views on Google Maps.
+In my free time, I like to read, dance, travel, and play strategy and team games. I enjoy [thinking about architecture][arch], and I like to keep up with the latest in the auto industry. I'm also an avid [Google Local Guide][local] reviewer, with over 2.5 million photo views on Google Maps, as well as the occasional amateur [Wikipedia editor][wikipedia].
 
 <!--
 
@@ -37,6 +37,7 @@ In my free time, I like to read, dance, travel, and play strategy games. I enjoy
 
 -->
 
+[wikipedia]: https://en.wikipedia.org/wiki/Wikipedia:Why_to_contribute#List_of_reasons
 [cs230]: http://cs230.stanford.edu
 [andrew]: http://www.andrewng.org/
 [kian]: https://www.linkedin.com/in/kiankatan/
